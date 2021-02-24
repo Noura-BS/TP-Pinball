@@ -1,0 +1,84 @@
+@import url("./reset.css");
+
+
+/*-------FONT-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+
+/*-------VARIABLES------*/
+:root {
+
+    --font : 'Open sans', sans-serif;
+    --paragraph-color: #BDBCBC;
+    --title-color: #7F7F7F22;
+    --bg-color: #F2F1F0;
+
+}
+
+/*-------TEXT FORMAT-----*/
+
+body {
+    background-color: var(--bg-color);
+}
+
+.animation {
+    color: var(--title-color);
+}
+background-color: var(--bg-color);
+
+h2, h3 {
+    font-family: var(--font);
+}
+
+.image {
+    background-color: var(--bg-color);
+}
+
+
+/*--------HEADER--------*/
+
+header {
+
+    height: auto;
+    margin:0;
+    padding:0;
+    background:var(--bg-color);
+}
+    
+.header-box {
+    display:flex;
+    flex-direction: flex-end;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+
+/*--------MAIN--------*/
+
+
+.grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.image {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+
+}
+
