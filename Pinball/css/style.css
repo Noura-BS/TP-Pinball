@@ -36,35 +36,43 @@ h2, h3 {
 
 
 /*--------HEADER--------*/
-
 header {
-
-    height: auto;
+    height: 100px;
     margin:0;
     padding:0;
     background:var(--bg-color);
+    border: 1px solid lightgrey;
 }
     
 .header-box {
     display:flex;
-    flex-direction: flex-end;
-    grid-template-columns: 1fr auto 1fr;
-    grid-template-rows: 1fr;
+    justify-content:space-evenly;
+    flex-wrap:nowrap;
+    align-items:stretch;
+    width:100%;
+    margin-top:20px;S
 }
 
 
 
 /*--------MAIN--------*/
-
+section {
+    margin-left: 50px;
+    margin-right:50px;
+}
 
 .grid {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
 }
 
 .image {
-
+    border:0 solid white;
+    box-shadow:2px 2px 2px 2px lightgrey;
+    border-radius:5px;
+    margin:10px;
 }
 
 
